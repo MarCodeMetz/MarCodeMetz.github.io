@@ -7,8 +7,12 @@ body,
 }
 
 #contact{
-    background-image: url(img/workstation.jpg); top center no-repeat;
-    background-size: cover;
+    background-image: url(img/woodtexture.jpg);
+    background-size: 50%;
+}
+
+.contact {
+    color: white;
 }
 
 #about,
