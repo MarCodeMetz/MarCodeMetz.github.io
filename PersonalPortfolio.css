@@ -61,7 +61,7 @@ nav.navbar {
 
 .intro, #social {
     background: #333; 
-    font-size: 75px;
+    font-size: 5rem;
 }
 
 
@@ -91,7 +91,7 @@ section {
 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rosybrown;
     text-transform: uppercase;
@@ -143,39 +143,22 @@ h3, p {
 }
 
 footer {
+    font-size: 1.5rem;
     background: #333;   
     color: white;
-    padding: 10px;   
     font-family: 'Advent Pro', sans-serif;   
-}
-
-footer a {
-    color: #5bc0de;
-    position: fixed;
 }
 
 .highlight {
     color: #5bc0de;
    }
 
-/*Media Queries */
+/*Media Queries*/ 
 @media only screen and ( max-width : 568px ) {
     .cover h1 {
         font-size: 40px;
     }
     section{
         padding: 20px;
-    }
-}
-/* Responsive layout 1 - makes a two column-layout instead of three */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-/* Responsive layout 2 - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
     }
 }
