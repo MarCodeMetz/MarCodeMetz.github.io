@@ -18,15 +18,32 @@ body,
 #about,
 #social,
 #portfolio,
-#contact{    
+#contact, 
+#myNavbar {    
     font-family: 'Michroma', sans-serif;
 }
 
 #social { color: white }
 
 nav.navbar {
-    background: rgba(0, 0, 0, 0.5);
-    border: none;  
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    font-size: 1.5rem;      
+}
+
+.fa-home {
+    font-size: 3rem;
+    color: #29A4D9;
+}
+
+#myNavbar {    
+    color: #29A4D9;  
+}
+
+.btn-xl {
+    background: #29A4D9;
+    color: white;
+    height: 5rem;
 }
 
 .cover {
@@ -53,6 +70,7 @@ nav.navbar {
     text-transform: uppercase;
     font-size: 50px;
     letter-spacing: 5px;
+    color: #29A4D9;
 }
 
 #imgMM {
@@ -71,7 +89,7 @@ blockquote {
     margin: 0;
     font-family: Georgia, Times, sans-serif;
     font-style: italic;    
-    color: #5bc0de;
+    color: #29A4D9;
 }
 
 blockquote cite {
@@ -101,6 +119,11 @@ h2 {
 h3, p {
     text-align: center;
     margin-top: -15px;
+}
+
+.icon {
+    font-size: 10rem;
+    color: #29A4D9;
 }
 
 .crop {
@@ -150,7 +173,7 @@ footer {
 }
 
 .highlight {
-    color: #5bc0de;
+    color: #29A4D9;
    }
 
 /*Media Queries*/ 
