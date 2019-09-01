@@ -1,17 +1,27 @@
 html,
 body,
 .cover,
-.education{    
+.education {    
     height: 60px;
     font-family: 'Michroma', sans-serif;
 }
 
-#contact{
-    background-image: url(img/woodtexture.jpg);
-    background-size: 50%;
+a:link {
+    text-decoration: none;
+    color: white;
 }
 
-.contact {
+a:hover {
+    text-decoration: none;
+}
+
+#contact {
+    background-image: url(img/woodtexture.jpg);
+    background-size: 50%;
+    color: white;
+}
+
+.contact h3 {
     color: white;
 }
 
